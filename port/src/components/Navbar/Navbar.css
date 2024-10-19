@@ -85,18 +85,22 @@
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
     .navbar-list {
-        position: absolute;
-        top: 60px;
-        right: 0;
+        align-items: flex-start;
         background: #333;
         flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
+        margin: 0;
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.3s ease-out;
         padding: 0;
-        margin: 0;
+        position: absolute;
+        right: 0;
+        top: 80px;
+        transition: max-height .3s ease-out;
+        width: 100%;
+    }
+
+    .navbar-list.active {
+        display: block;
     }
 
     .navbar-list li {
