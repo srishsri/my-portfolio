@@ -92,3 +92,13 @@
     font-size: 1.75rem;
     text-transform: uppercase;
 }
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .hero-content h1 {
+        font-size: 29px;
+    }
+    .nav-bar.sticky .hamburger .bar {
+        background: #000;
+    }
+}
