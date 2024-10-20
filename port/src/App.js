@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './components/About/About';
 import Services from './components/Services/Services';
 import Resume from './components/Resume/Resume';
+import Connect from './components/Lets-connect/Connect';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <About/>
       <Services/>
       <Resume/>
+      <Connect/>
     </div>
   )
 }

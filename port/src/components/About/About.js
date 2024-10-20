@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 const About = () => {
   return (
     <div>
-      <div className='about-section'>
+      <div className='about-section' id='about'>
         <Container>
             <div className='about-heading text-center'>
               <h3>About Me</h3>
@@ -29,8 +29,9 @@ const About = () => {
                 <Col md={6} lg={5} xl={4}>
                 <div className="ps-lg-4">
                   <ul className="list-style-2">
-                    <li className=""><span className="fw-600 me-2">Name:</span>Sridhar</li>
-                    <li className=""><span className="fw-600 me-2">Email:</span><a href="mailto:sridhar14895@gmail.com">sridhar14895@gmail.com</a></li>
+                    <li><span className="fw-600 me-2">Name:</span>Sridhar</li>
+                    <li><span className="fw-600 me-2">Email:</span><a href="mailto:sridhar14895@gmail.com">sridhar14895@gmail.com</a></li>
+                    <li><span className="fw-600 me-2">Phone:</span><a href="tel:+91 9750133136">+91 97501 33136</a></li>
                   </ul>
                   <a href="#" className="btn btn-primary rounded-pill">Download CV</a> </div>
                 </Col>

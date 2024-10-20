@@ -29,11 +29,11 @@ const Navbar = () => {
         <div className={`nav-bar ${isSticky ? 'sticky' : ''}`}>
             <a href="#"><img src={logo} alt='logo' className='logo'/> <span>Mr.Developer</span></a>
             <ul className={`navbar-list ${menuOpen ? 'active' : ''}`}>
-                <li>Home</li>
-                <li>About Me</li>
-                <li>Services</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div className='nav-connect'>Contact With Me</div>
             <div className='hamburger' onClick={toggleMenu}>

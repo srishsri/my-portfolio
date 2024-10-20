@@ -5,7 +5,7 @@ import { Container, Row, Col, Tabs, Tab } from 'react-bootstrap';
 const Resume = () => {
     return (
         <div>
-            <div className='tab-section'>
+            <div className='tab-section' id='resume'>
                 <Container>
                     <Row>
                     <div class="services-heading text-center"><h3>My Resume</h3><p>What I Did? <span class="heading-separator-line"></span></p></div>

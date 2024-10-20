@@ -1,0 +1,10 @@
+.lets-connect {
+    padding: 4.5rem 0;
+    text-align: center;
+}
+
+.whatsapp-fixed a {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}

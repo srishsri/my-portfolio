@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 const Services = () => {
   return (
     <div>
-        <div className='services bg-light'>
+        <div className='services bg-light' id='services'>
             <Container>
                 <div className='services-heading text-center'>
                     <h3>Services</h3>

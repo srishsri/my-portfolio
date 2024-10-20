@@ -78,9 +78,6 @@ img::-moz-selection {
         left: -78px;
     }
 }
-h3 {
-    margin: 20px 0;
-}
 
 .experience {
     padding: 0 30px;
@@ -96,10 +93,10 @@ h3 {
 .experience::before {
     content: "";
     position: absolute;
-    left: 0; /* Adjust based on your layout */
+    left: 0;
     top: 0;
     bottom: 0;
-    width: 3px; /* Width of the gradient line */
+    width: 3px;
     background: #0a66c2;
 }
 

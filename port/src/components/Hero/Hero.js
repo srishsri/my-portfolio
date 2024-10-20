@@ -11,7 +11,7 @@ const Hero = () => {
 
     return (
         <div>
-            <div className='hero-banner'>
+            <div className='hero-banner' id='home'>
                 <div className="hero-mask opacity-8 bg-dark"></div>
                 <div className='hero-content'>
                     <h3>Welcome</h3>
