@@ -105,7 +105,7 @@ const Resume = () => {
                                             Coimbatore
                                         </div>
                                         <div className='job-info'>
-                                            <div className='title'>Web Developer</div>
+                                            <div className='title'>Sr.Web Developer</div>
                                             <div>Dec 2022 - Jan 2024</div>
                                         </div>
                                     </div>
@@ -116,7 +116,7 @@ const Resume = () => {
                                             Coimbatore
                                         </div>
                                         <div className='job-info'>
-                                            <div className='title'>WordPress <br/>Developer</div>
+                                            <div className='title'>WordPress Developer</div>
                                             <div>Sept 2022 - Oct 2022</div>
                                         </div>
                                         <div>
@@ -169,7 +169,7 @@ const Resume = () => {
                                     <li><a href="https://tmgfashions.com/" rel="noreferrer" target='_blank'>TMG Fashions</a></li>
                                     <li><a href="https://automaxcoimbatore.com/" rel="noreferrer" target='_blank'>Automax Coimbatore</a></li>
                                     <li><a href="https://kaadhani.com/" rel="noreferrer" target='_blank'>Kaadhani</a></li>
-                                    <li><a href="http://skandanapparels.com/ " rel="noreferrer" target='_blank'>Skandanapparels</a></li>
+                                    <li><a href="http://skandanapparels.com/ " rel="noreferrer" target='_blank'>Skandan Apparels</a></li>
                                     <li><a href="https://ksbuilders.net/" rel="noreferrer" target='_blank'>KS Builders</a></li>      
                                 </ul>
                             </Tab>

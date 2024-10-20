@@ -100,7 +100,7 @@ h3 {
     top: 0;
     bottom: 0;
     width: 3px; /* Width of the gradient line */
-    background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+    background: #0a66c2;
 }
 
 @media (max-width: 767px) {
@@ -124,7 +124,7 @@ h3 {
     height: 22px;
     border-radius: 50%;
     background: #ffffff;
-    border: 3px solid #bb28d5;
+    border: 3px solid #0a66c2;
 }
 .experience .item::after {
     content: "";
@@ -134,7 +134,7 @@ h3 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #bd2ecc;
+    background: #0a66c2;
 }
 .experience .company-name {
     color: #212529;
@@ -176,7 +176,7 @@ h3 {
 }
 
 .tab-section .nav-pills .nav-link.active {
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    background: #0a66c2;
     color: #fff;
 }
 
@@ -187,7 +187,7 @@ h3 {
 .tab-section .nav-pills .nav-link {
     color: #000;
     font-size: 18px;
-    border: 1px solid #bb28d6;
+    border: 1px solid #0a66c2;
     border-radius: 30px;
     line-height: 25px;
 }

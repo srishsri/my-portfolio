@@ -43,7 +43,7 @@
 }
 
 .hero-content span {
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    background: #0a66c2;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -72,7 +72,7 @@
 }
 
 .hero-buttons .connect-me {
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    background: #0a66c2;
     color: #fff;
     padding: 10px 30px;
     border-radius: 30px;
