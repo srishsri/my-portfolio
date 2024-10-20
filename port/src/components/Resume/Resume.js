@@ -86,7 +86,7 @@ const Resume = () => {
                                         </div>
                                         <div className='job-info'>
                                             <div className='title'>Sr.Web Developer</div>
-                                            <div>2022 - 2022</div>
+                                            <div>Jan 2024 - Oct 2022</div>
                                         </div>
                                         <div>
                                             <ul className='fa-ul'>
@@ -100,13 +100,24 @@ const Resume = () => {
                                     </div>
 
                                     <div className='item'>
+                                        <h5 className='company-name'>MindMade Technologies</h5>
+                                        <div className='location'>
+                                            Coimbatore
+                                        </div>
+                                        <div className='job-info'>
+                                            <div className='title'>Web Developer</div>
+                                            <div>Dec 2022 - Jan 2024</div>
+                                        </div>
+                                    </div>
+
+                                    <div className='item'>
                                         <h5 className='company-name'>texila educare healthcare and technology enterprises pvt ltd</h5>
                                         <div className='location'>
                                             Coimbatore
                                         </div>
                                         <div className='job-info'>
                                             <div className='title'>WordPress <br/>Developer</div>
-                                            <div>2022 - 2022</div>
+                                            <div>Sept 2022 - Oct 2022</div>
                                         </div>
                                         <div>
                                             <ul className='fa-ul'>

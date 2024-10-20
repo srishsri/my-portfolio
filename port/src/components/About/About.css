@@ -104,4 +104,10 @@
     .featured-box {
         margin-bottom: 30px;
     }
+    .about-heading h3 {
+        font-size: 4.25rem;
+    }
+    .about-me h2 {
+        font-size: 1.4rem;
+    }
 }

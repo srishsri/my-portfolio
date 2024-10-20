@@ -151,11 +151,14 @@ h3 {
 }
 .experience .job-info {
     position: absolute;
-    left: -185px;
+    left: -220px;
     top: 0;
 }
 .experience .job-info .title {
     color: #212529;
+}
+.tab-section .services-heading {
+    margin-bottom: 50px;
 }
 @media (max-width: 767px) {
     .experience .job-info {
@@ -226,7 +229,7 @@ h3 {
         font-size: 3.7rem;
     }
     .tab-content {
-        padding-top: 30px;
+        padding-top: 70px;
     }
     .project-links {
         column-count: 1;
@@ -243,5 +246,12 @@ h3 {
     }
     .about-me p {
         text-align: justify;
+    }
+
+    .about-me h2 {
+        font-size: 1.4rem;
+    }
+    .experience .location{
+        position: unset;
     }
 }

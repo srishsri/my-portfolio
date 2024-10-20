@@ -52,3 +52,16 @@
 .feature-box {
     padding-top: 60px;
 }
+
+.services .feature-box:last-child {
+    padding-top: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+.services-heading h3 {
+    font-size: 4.7rem;
+}
+.services-heading p {
+    width: 100%;
+}
+}
