@@ -59,6 +59,7 @@
 .list-style-2 {
     list-style: none;
     margin-bottom: 1rem !important;
+    padding-left: 0;
 }
 
 .list-style-2 li {

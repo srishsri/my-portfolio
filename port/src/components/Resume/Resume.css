@@ -1,0 +1,247 @@
+.tab-section {
+    padding: 4.5rem 0;
+}
+
+::-moz-selection {
+    background: #fcfcfc;
+    background: rgba(224, 224, 224, 0.2);
+    text-shadow: none;
+}
+
+::selection {
+    background: #fcfcfc;
+    background: rgba(224, 224, 224, 0.2);
+    text-shadow: none;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+img::selection {
+    background: transparent;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+.shadow-nohover {
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+    transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@-webkit-keyframes animatop {
+    0% {
+        opacity: 0;
+        bottom: -500px;
+    }
+    100% {
+        opacity: 1;
+        bottom: 0px;
+    }
+}
+
+@keyframes animatop {
+    0% {
+        opacity: 0;
+        bottom: -500px;
+    }
+    100% {
+        opacity: 1;
+        bottom: 0px;
+    }
+}
+@-webkit-keyframes rotatemagic {
+    0% {
+        opacity: 0;
+        transform: rotate(0deg);
+        top: -24px;
+        left: -253px;
+    }
+    100% {
+        transform: rotate(-30deg);
+        top: -24px;
+        left: -78px;
+    }
+}
+@keyframes rotatemagic {
+    0% {
+        opacity: 0;
+        transform: rotate(0deg);
+        top: -24px;
+        left: -253px;
+    }
+    100% {
+        transform: rotate(-30deg);
+        top: -24px;
+        left: -78px;
+    }
+}
+h3 {
+    margin: 20px 0;
+}
+
+.experience {
+    padding: 0 30px;
+    margin-left: 185px;
+}
+
+.experience {
+    position: relative;
+    padding: 0 30px;
+    margin-left: 185px;
+}
+
+.experience::before {
+    content: "";
+    position: absolute;
+    left: 0; /* Adjust based on your layout */
+    top: 0;
+    bottom: 0;
+    width: 3px; /* Width of the gradient line */
+    background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+}
+
+@media (max-width: 767px) {
+    .experience {
+        margin-left: 0;
+        padding-right: 0;
+    }
+}
+.experience .item {
+    position: relative;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #efefef;
+}
+.experience .item::before {
+    content: "";
+    position: absolute;
+    left: -40px;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 3px solid #bb28d5;
+}
+.experience .item::after {
+    content: "";
+    position: absolute;
+    left: -34px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #bd2ecc;
+}
+.experience .company-name {
+    color: #212529;
+    text-transform: capitalize;
+}
+.experience .location {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-weight: 600;
+}
+.experience .location .fa {
+    margin-right: 8px;
+}
+.experience .job-info {
+    position: absolute;
+    left: -185px;
+    top: 0;
+}
+.experience .job-info .title {
+    color: #212529;
+}
+@media (max-width: 767px) {
+    .experience .job-info {
+        position: static;
+        margin-bottom: 1rem;
+    }
+}
+.tab-content {
+    padding-top: 70px;
+}
+
+.tab-section .nav-pills .nav-link {
+    color: #000;
+    font-size: 18px;
+}
+
+.tab-section .nav-pills .nav-link.active {
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    color: #fff;
+}
+
+.tab-section .nav-pills {
+    gap: 20px;
+}
+
+.tab-section .nav-pills .nav-link {
+    color: #000;
+    font-size: 18px;
+    border: 1px solid #bb28d6;
+    border-radius: 30px;
+    line-height: 25px;
+}
+
+.skills-tools ul {
+    text-align: left;
+}
+
+.skills-tools h3 {
+    text-align: center;
+}
+
+.skills-tools h3 .heading-separator-line {
+    margin-top: 15px;
+}
+
+.project-links li a:hover {
+    color: #bc2bd0;
+    transition: 0.5s;
+}
+
+
+.project-links li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.project-links {
+    column-count: 3;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .tab-section {
+        padding: 4.5rem 15px;
+    }
+    .services-heading h3 {
+        font-size: 3.7rem;
+    }
+    .tab-content {
+        padding-top: 30px;
+    }
+    .project-links {
+        column-count: 1;
+        padding: 0 20px;
+    }
+    .about-heading p {
+        font-size: 1.6rem;
+    }
+    .about-section {
+        padding: 2.5rem 0;
+    }
+    .about-me h2 {
+        font-size: 1.6rem;
+    }
+    .about-me p {
+        text-align: justify;
+    }
+}
